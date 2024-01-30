@@ -287,3 +287,28 @@ top: -1px;
 }
 
 
+.title3 > .frame2 {
+
+    gap: 3px;
+    padding: 8px 0px;
+    background-color: rgba(255, 130, 0, 1) ;
+    text-align: center;
+}
+
+.title3 > .frame2 >.texte12{
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title3 > .frame2 >.texte21{
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #FFEAAE;
+}
+
