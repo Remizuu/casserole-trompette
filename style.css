@@ -1,0 +1,61 @@
+
+.header-mobile{
+    width: 360px;
+    height: 54px;
+}
+
+.header-mobile .over {
+    position: relative;
+    height: 50px;
+    top: 2px;
+    background-color: #0a090380;
+}
+
+.header-mobile .titre{
+    position: absolute;
+    top: 7px;
+    left: 0;
+    font-weight: 900;
+    font-family: "Arial-Black",Arial, Helvetica, sans-serif;
+    color: var(--amber);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 16.8px;
+}
+
+.header-mobile .button{
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    width: 111px;
+    height: 32px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 16px;
+    position: absolute;
+}
+.header-mobile .boutton {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgba(10, 9, 3, 1) ;
+    font-size:  14px;
+    letter-spacing: 0px;
+    line-height: normal;
+    white-space: nowrap;
+    font-style: normal;
+
+}
+
+
+
+.box{
+width: 360px;
+height: 179px;
+}
+
+.box .groupe{
+
+}
