@@ -1,3 +1,9 @@
+body{
+    width: 360px;
+    height: 1990px;
+    position: relative;
+    background-color: rgba(255, 234, 174, 1);
+}
 
 .header-mobile{
     width: 360px;
@@ -7,7 +13,7 @@
 .header-mobile .over {
     position: relative;
     height: 50px;
-    top: 2px;
+    top: 5px;
     background-color: #0a090380;
 }
 
@@ -17,7 +23,7 @@
     left: 0;
     font-weight: 900;
     font-family: "Arial-Black",Arial, Helvetica, sans-serif;
-    color: var(--amber);
+    color: rgba(255, 193, 0, 1);
     font-size: 24px;
     letter-spacing: 0;
     line-height: 16.8px;
@@ -33,6 +39,10 @@
     gap: 10px;
     padding: 8px 16px;
     position: absolute;
+    top: 9px;
+    left: 240px;
+    background-color: rgba(255, 193, 0, 1);
+    border-radius: 16px;
 }
 .header-mobile .boutton {
     position: relative;
@@ -52,10 +62,209 @@
 
 
 .box{
-width: 360px;
-height: 179px;
+    position: absolute;
+    width: 360px;
+    height: 179px;
+
 }
 
 .box .groupe{
+position: fixed;
+width: 360px;
+height: 177px;
+top: 0;
+left: 0;
 
 }
+
+.title {
+    position: relative;
+    width: 360px;
+    height: 62px;
+    margin-top: 120px;
+
+}
+
+.title2 {
+    position: relative;
+    width: 360px;
+    height: 62px;
+    margin-top: -200px;
+
+}
+
+
+.title .frame{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+    padding: 8px 0px;
+    position: relative;
+    background-color: rgba(255, 130, 0, 1) ;
+}
+
+.title2 .frame2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+    padding: 8px 0px;
+    position: relative;
+    background-color: rgba(255, 130, 0, 1) ;
+}
+
+.title .texte1 {
+    position: relative;
+    width: 360px;
+    margin-top: -1px;
+    font-family: "Aria-Italic","Helvetica";
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(10, 9, 3, 1);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: normal;
+}
+.title2 .texte12 {
+    position: relative;
+    width: 360px;
+    margin-top: -1px;
+    font-family: "Aria-Italic","Helvetica";
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(10, 9, 3, 1);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: normal;
+}
+
+.title .texte2 { 
+    position: relative;
+    font-family: "Aria-Bold","Helvetica";
+    width: 360px;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(255, 234, 174, 1);
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: normal;
+    font-style: normal;
+}
+
+.title2 .texte21 {
+    osition: relative;
+    font-family: "Aria-Bold","Helvetica";
+    width: 360px;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(255, 234, 174, 1);
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: normal;
+    font-style: normal;
+}
+
+.image {
+    width: 168px;
+    height: 228px;
+
+}
+.image .photos {
+    position: absolute;
+    width: 168px;
+    height: 228px;
+    top: 260px;
+    left: 186px;
+    object-fit: cover;
+}
+
+.image2 {
+    width: 360px;
+    height: 194px;
+}
+
+.image2 .photos2 {
+    position: absolute;
+    width: 360px;
+    height: 194px;
+    top: 565px;
+    left: 0;
+    object-fit: cover;
+}
+
+
+
+
+.texte3{
+position: relative;
+width: 344px;
+height: 228px;
+top: 20px;
+}
+
+.casserole {
+position: absolute;
+width: 167px;
+top: -1px;
+    left: 0;
+    font-family: "Aria-Bold", "Helvetica";
+    font-weight: 700;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.petit-texte2{
+    font-size: 12px;
+    font-family: "Arial-Bold";
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0px0;
+    line-height: 18px;
+}
+
+.petit-texte{
+    font-weight: 700;
+}
+
+.label{
+    width: 344px;
+    height: 90px;
+    margin-top: 30px;
+}
+
+.label .petit-texte3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 18px;
+    letter-spacing: 0px;
+}
+
+.proprio {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 9px;
+    position: relative;
+}
+
+.proprio .div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.proprio .photo3 {
+    position: relative;
+    width: 109px;
+    height: 109px;
+}
+
